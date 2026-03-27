@@ -38,15 +38,15 @@ Quando uma mudança incompatível com versões anteriores é feita, deve-se indi
 Colocando um ! após o tipo ou escopo:
 
 ```
-feat(auth)!: requer autenticação 2FA
+feat(player)!: altera PlayerController para novo sistema de física
 ```
 
 Ou usando um rodapé com o texto BREAKING CHANGE: seguido da descrição:
 
 ```
-fix: corrigir endpoint de usuário
+fix(build): ajustar pipeline para Unity 6000.4.0f1
 
-BREAKING CHANGE: endpoint /user/{id} mudou para /users/{id}
+BREAKING CHANGE: o projeto foi migrado para Unity 6000.4.0f1; builds antigas podem não funcionar, e alguns assets precisam ser reimportados.
 ```
 
 ## Exemplo completo

@@ -2,6 +2,16 @@
 
 Este projeto adota o padrão **Conventional Commits**, que estrutura mensagens de commit para facilitar a automação de versionamento semântico e geração automática de changelogs.
 
+# Regras do padrão de commits
+
+1. Todas as mensagens de commit devem estar em português.
+2. **SEGUIR** o formato do Conventional Commits
+- Tipo (feat, fix, perf, etc.)
+- Escopo opcional ((player), (ui), (build))
+- Dois pontos : depois do escopo
+- Mensagem curta e objetiva
+- Linha em branco opcional e descrição detalhada se necessário
+
 ## Formato básico
 
 | Tipo         | Descrição                                       | Exemplo                                        |
@@ -33,7 +43,7 @@ feat(auth): adicionar suporte a dois fatores
 
 ## Breaking changes
 
-Quando uma mudança incompatível com versões anteriores é feita, deve-se indicar um breaking change. Isso pode ser feito de duas formas:
+Quando uma mudança incompatível com versões anteriores é feita, deve-se indicar um breaking change. Dificilmente isso vai rolar e se rolar vai ser comigo (Murillo). Isso pode ser feito de duas formas:
 
 Colocando um ! após o tipo ou escopo:
 

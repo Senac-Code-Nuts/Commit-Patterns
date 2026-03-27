@@ -57,3 +57,7 @@ O projeto foi migrado para a nova versão da Unity para aproveitar melhorias no 
 
 BREAKING CHANGE: alguns assets e scripts podem precisar ser reimportados, e builds antigas podem não funcionar.
 ```
+
+## Referências
+
+O texto foi baseado em [Conventional Commits Org](https://www.conventionalcommits.org/en/v1.0.0/).
